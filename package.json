@@ -1,0 +1,19 @@
+{
+  "name": "config-app",
+  "version": "1.0.0",
+  "description": "Configuration app connects the ROS controllers with configuration files of every robot",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "CONFIG"
+  ],
+  "author": "George Alexakis",
+  "license": "MIT",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.3"
+  }
+}
