@@ -7,11 +7,19 @@
     "start": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/georgealexakis/config-app.git"
+  },
   "keywords": [
     "CONFIG"
   ],
   "author": "George Alexakis",
   "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/georgealexakis/config-app/issues"
+  },
+  "homepage": "https://github.com/georgealexakis/config-app#readme",
   "dependencies": {
     "cors": "^2.8.5",
     "express": "^4.17.3"
